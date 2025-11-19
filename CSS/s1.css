@@ -1,0 +1,126 @@
+.header{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.smart_ico{
+    height: 70%;
+    width: 10%;
+    border: 4px solid var(--color-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s{
+    font-size:xx-large;
+    color: var(--color-orange)
+
+}
+
+.burger_menu{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.line{
+    width: 100%;
+    height: 4px; 
+    background-color: #6e6c70; 
+    display: block;
+}
+
+.main_block1{
+    height: 100%;
+    width: calc(100% - 16%);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: url(../Img/1.png);
+    background-size:65%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.message_block{
+    height: 60%;
+    width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 0%;
+    left: 8%;
+    z-index: 2;
+    background-color:white;
+    box-shadow: 5px 5px 20px var(--color-gray)
+}
+
+.message_block_incide{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.send{
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info{
+    height: 60%;
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+input {
+  border: none; 
+  outline: none; 
+}
+
+.orange{
+    color: var(--color-orange);
+    font-size: larger;
+}
+
+.grey{
+    color: var(--color-gray);
+    font-size: larger;
+}
+
+.button_send_m{
+    height: 10%;
+    width: 70%;
+    background-color: var(--color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+    transition:  background-color 1s ease;
+}
+
+.button_send_m:hover {
+  background-color: var(--color-orange);
+}
+
+.⟶{
+    color: white;
+    font-size: large;
+}
+
+
+

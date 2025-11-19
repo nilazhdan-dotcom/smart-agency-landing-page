@@ -1,0 +1,37 @@
+.main3{
+    height: 100%;
+    width: calc(100% - 16%);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.pic9{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100% - 8% - 210px);
+    flex-wrap: wrap;
+    gap: 5%;
+    overflow-x: clip;
+    justify-content: space-between;
+    row-gap: 5%;
+    padding-bottom: 8%;
+}
+
+
+.pic1 {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    
+}
+
+.pic1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

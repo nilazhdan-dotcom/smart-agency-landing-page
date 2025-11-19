@@ -1,0 +1,213 @@
+.main_block4{
+    height: 100%;
+    width: calc(100% - 16%);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.flex_s4{
+    width: 100%;
+    height: calc(100% - 210px - 95px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 5%;
+}
+
+.flex_s4_block1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-image: url(../Img/face1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.employee_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(0deg, rgb(254, 243, 241) 0%, rgba(254, 243, 0, 0) 80%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 1s linear;
+}
+
+.flex_s4_block1:hover > .employee_profile {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+.flex_s4_block1:hover > .button_s4 {
+    display: none;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee_text{
+    font-size: small;
+    color: var(--color-gray);
+}
+.employee_hr{
+    display: flex;
+    flex-direction: row;
+    width: 60%; 
+}
+
+.hr1{
+    color: var(--color-orange);
+    width: 70%;
+    border: 2px solid;
+}
+
+.hr2{
+    color: var(--color-gray);
+    width: 30%;
+    border: 2px solid;
+}
+
+.hr3{
+    color: var(--color-orange);
+    width: 50%;
+    border: 2px solid;
+}
+
+.hr4{
+    color: var(--color-gray);
+    width: 50%;
+    border: 2px solid;
+}
+
+.employee_name{
+    font-size: x-large;
+    color: var(--color-gray);
+    font-weight:bold;
+}
+
+.employee_profession{
+    font-size: large;
+    color: var(--color-orange); 
+}
+.employee_sm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+.sm1{
+    background-image: url(../Img/twitter2.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px; 
+}
+.sm2 {
+    background-image: url(../Img/facebook2.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px; 
+}
+
+
+.flex_s4_block2{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-image: url(../Img/face2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex_s4_block2:hover > .employee_profile {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+.flex_s4_block2:hover > .button_s4 {
+    display: none;
+}
+
+.flex_s4_block3{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    background-image: url(../Img/face3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex_s4_block3:hover > .employee_profile {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+.flex_s4_block3:hover > .button_s4 {
+    opacity: 0;
+}
+
+
+.button_s4{
+    height: 20%;
+    width: 60%;
+    background-color: rgb(249, 249, 249);
+    display: inline-block;
+    vertical-align: middle;
+    bottom: -25px;
+    position: absolute;
+    z-index: 4;
+    box-shadow: 5px 5px 20px var(--color-gray);
+    opacity: 1;
+    transition: opacity 1s, linear;
+}
+
+.bottom_name_s4{
+    color: var(--color-gray);
+    font-size:x-large;
+    font-weight:bold;
+    height: 50%;
+    width: 100%;
+    align-content: center;
+}
+
+.profession{
+    color: var(--color-gray);
+    font-size:large;
+    height: 50%;
+    width: 100%;
+    align-content: center;
+}
